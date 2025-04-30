@@ -1,0 +1,35 @@
+.todolist__wrapper {
+	.MuiAccordionDetails-root {
+		padding: 0;
+	}
+	li.MuiListItem-root {
+		padding: 0px;
+		padding-left: 6px;
+		span.MuiTypography-root {
+			font-size: 1.2rem;
+		}
+		svg {
+			font-size: 2rem;
+			fill: rgb(203, 203, 203, 1);
+		}
+	}
+	.actions {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 10px;
+
+		button {
+			text-transform: none;
+			color: rgba(0, 0, 0, 0.54);
+		}
+
+		p {
+			font-size: 0.875rem;
+			color: rgba(0, 0, 0, 0.54);
+		}
+	}
+	#panel1-header {
+		border-bottom: 1px solid darkgrey;
+	}
+}
