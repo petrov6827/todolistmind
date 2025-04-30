@@ -50,7 +50,7 @@ const TodoList = () => {
 	}, [todos, checked, filter])
 
 	const handleFilterChange = useCallback((
-		event: React.MouseEvent<HTMLElement>,
+		_event: React.MouseEvent<HTMLElement>,
 		newFilter: FilterType,
 	) => {
 		if (newFilter !== null) {
