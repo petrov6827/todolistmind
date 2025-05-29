@@ -117,6 +117,7 @@ const TodoList = () => {
 						onChange={(e) => setText(e.target.value)}
 						onClick={(e) => e.stopPropagation()}
 						onKeyDown={handleKeyEnter}
+						className='todo-input'
 					/>
 				</AccordionSummary>
 				<AccordionDetails>
