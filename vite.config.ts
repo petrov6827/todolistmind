@@ -12,4 +12,5 @@ export default defineConfig({
     },
     globals: true
   },
+  base: "/todolistmind/"
 })
